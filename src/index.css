@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.container {
+  background-color: palevioletred;
+  width: 80vw;
+  margin: 2rem auto;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.list {
+  display: flex;
+  background-color: rgb(245, 242, 242);
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.title {
+  text-align: center;
+}
