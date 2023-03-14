@@ -28,7 +28,7 @@ img {
   gap: 1rem;
   align-items: center;
   margin: 1rem 0;
-  padding: 1rem;
+  padding: 0.7rem;
   border-radius: 10px;
 }
 
@@ -45,4 +45,10 @@ img {
 
 .title {
   text-align: center;
+}
+
+@media screen and (min-width: 990px) {
+  .container {
+    width: 350px;
+  }
 }
